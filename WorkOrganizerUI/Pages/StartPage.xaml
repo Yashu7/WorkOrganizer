@@ -5,9 +5,12 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:local="using:WorkOrganizerUI.Pages"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:viewModels="using:WorkOrganizerViewModels.ViewModels"
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    <Page.DataContext>
+        <viewModels:StartViewModel x:Name="StartViewModel"/>
+    </Page.DataContext>
 
     <Grid Width="150" Height="100" CornerRadius="10" Background="#6a5acd">
         <Grid.RowDefinitions>
@@ -15,6 +18,6 @@
             <RowDefinition/>
         </Grid.RowDefinitions>
         <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="0" Text="CONTENT"/>
-        <Button BorderBrush="Transparent" Background="Transparent" Grid.Row="1" Content="Page Button"/>
+        <Button BorderBrush="Transparent" Command="{Binding TestStartCommand}" Background="Transparent" Grid.Row="1" Content="Page Button"/>
     </Grid>
 </Page>
