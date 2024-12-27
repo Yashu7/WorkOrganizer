@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "WorkOrganizerUI (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "WorkOrganizerUI (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}
