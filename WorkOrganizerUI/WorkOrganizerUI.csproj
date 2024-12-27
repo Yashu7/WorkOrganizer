@@ -12,6 +12,9 @@
     <EnableMsixTooling>true</EnableMsixTooling>
     <Nullable>enable</Nullable>
   </PropertyGroup>
+  <ItemGroup>
+    <None Remove="Pages\StartPage.xaml" />
+  </ItemGroup>
 
   <ItemGroup>
     <Content Include="Assets\SplashScreen.scale-200.png" />
@@ -41,6 +44,11 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\WorkOrganizerViewModels\WorkOrganizerViewModels.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="Pages\StartPage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
 
   <!--
