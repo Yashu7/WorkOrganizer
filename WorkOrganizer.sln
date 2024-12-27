@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkOrganizerUI", "WorkOrga
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkOrganizerViewModels", "WorkOrganizerViewModels\WorkOrganizerViewModels.csproj", "{6A990685-1B22-423E-8F7A-46E5DFE6B8A0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SubstituteVM", "SubstituteVM\SubstituteVM.csproj", "{1A9637DE-5DE8-4C82-B1DA-68E6B875A59F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|ARM64 = Debug|ARM64
@@ -47,6 +49,18 @@ Global
 		{6A990685-1B22-423E-8F7A-46E5DFE6B8A0}.Release|x64.Build.0 = Release|Any CPU
 		{6A990685-1B22-423E-8F7A-46E5DFE6B8A0}.Release|x86.ActiveCfg = Release|Any CPU
 		{6A990685-1B22-423E-8F7A-46E5DFE6B8A0}.Release|x86.Build.0 = Release|Any CPU
+		{1A9637DE-5DE8-4C82-B1DA-68E6B875A59F}.Debug|ARM64.ActiveCfg = Debug|Any CPU
+		{1A9637DE-5DE8-4C82-B1DA-68E6B875A59F}.Debug|ARM64.Build.0 = Debug|Any CPU
+		{1A9637DE-5DE8-4C82-B1DA-68E6B875A59F}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{1A9637DE-5DE8-4C82-B1DA-68E6B875A59F}.Debug|x64.Build.0 = Debug|Any CPU
+		{1A9637DE-5DE8-4C82-B1DA-68E6B875A59F}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{1A9637DE-5DE8-4C82-B1DA-68E6B875A59F}.Debug|x86.Build.0 = Debug|Any CPU
+		{1A9637DE-5DE8-4C82-B1DA-68E6B875A59F}.Release|ARM64.ActiveCfg = Release|Any CPU
+		{1A9637DE-5DE8-4C82-B1DA-68E6B875A59F}.Release|ARM64.Build.0 = Release|Any CPU
+		{1A9637DE-5DE8-4C82-B1DA-68E6B875A59F}.Release|x64.ActiveCfg = Release|Any CPU
+		{1A9637DE-5DE8-4C82-B1DA-68E6B875A59F}.Release|x64.Build.0 = Release|Any CPU
+		{1A9637DE-5DE8-4C82-B1DA-68E6B875A59F}.Release|x86.ActiveCfg = Release|Any CPU
+		{1A9637DE-5DE8-4C82-B1DA-68E6B875A59F}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

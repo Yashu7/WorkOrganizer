@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "DecoupleTest (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "DecoupleTest (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}
